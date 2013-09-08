@@ -1,0 +1,169 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "people",
+   "children": [
+    {"name": "hereditary characteristics"},
+    {
+     "name": "operational choices",
+     "children": [
+      {"name": "relative humidity"},
+      {"name": "temperature"},
+      {"name": "lighting"},
+      {"name": "ventilation"},
+        {
+          "name": "maintenance",
+          "children": [
+            {"name": "cost"},
+            {"name": "expertise"},
+            {"name": "frequency"},
+            {"name": "accessibility"}
+          ]
+        } 
+      ]
+    },
+    {
+     "name": "environmental history",
+     "children": [
+      {"name": "current exposure"},
+      {"name": "age"},
+      {"name": "susceptibility"},
+      {"name": "prior exposure"}
+     ]
+    }
+   ]
+  },
+  {
+    "name": "building",
+   "children": [
+    {
+     "name": "building enclosure",
+     "children": [
+      {"name": "roof assembly"},
+      {
+      "name": "wall assembly",
+      "children":[
+        {
+        "name": "elements",
+        "children":[
+          {"name": "paint"},
+          {"name": "siding"},
+          {"name": "sheathing"},
+          {"name": "insulation"},
+          {"name": "drywall"}
+          ]
+        }
+       ]
+      },
+      {"name": "foundation assembly"}
+     ]
+    },
+    {
+      "name": "sub-systems",
+      "children": [
+      {"name": "electrical power"},
+        {
+        "name": "HVAC",
+        "children":[
+          {
+          "name": "components",
+          "children":[
+            {"name": "ducts"},
+            {"name": "air handlers"},
+            {"name": "sealants"}
+            ]
+          }
+         ]
+        },
+      {"name": "plumbing"}
+      ]
+    },
+    {
+      "name": "fit and finish",
+      "children": [
+      {"name": "appliances"},
+        {
+        "name": "fixtures",
+        "children":[
+          {
+          "name": "components",
+          "children":[
+            {"name": "lights"},
+            {"name": "faucets"},
+            {"name": "cabinets"}
+            ]
+          }
+         ]
+        },
+      {"name": "furnishings"}
+      ]
+    }
+   ]
+  },
+  {
+    "name": "environment",
+   "children": [
+    {
+     "name": "personal",
+     "children": [
+      {"name": "clothing"},
+      {"name": "diet"},
+      {"name": "lifestyle"}
+     ]
+    },
+    {
+      "name": "internal",
+      "children": [
+      {"name": "relative humidity"},
+      {"name": "temperature"},
+        {
+        "name": "pollutant concentrations",
+        "children":[
+          {
+          "name": "chemical",
+          "children":[
+            {"name": "gases"},
+            {"name": "particulates"}
+            ]
+          },
+          {
+          "name": "biological",
+          "children":[
+            {"name": "gases"},
+            {"name": "particulates"}
+            ]
+          }
+         ]
+        },
+      {"name": "psycho-social stresses"},
+      {"name": "lighting noise vibration"}
+      ]
+    },
+    {
+      "name": "external",
+      "children": [
+      {"name": "local"},
+      {"name": "regional"},
+        {
+        "name": "global",
+        "children":[
+          {"name": "ozone depletion"},
+          {"name": "global warming"},
+          {"name": "biological diversity"},
+          {
+          "name": "total energy",
+          "children":[
+            {"name": "embodied energy"},
+            {"name": "operational energy"},
+            {"name": "decommissioning energy"}
+            ]
+          }
+         ]
+        }
+      ]
+    }
+   ]
+  }
+ ]
+}
